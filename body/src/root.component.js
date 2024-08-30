@@ -1,7 +1,11 @@
 import React from "react";
+import './style.css';
 
 export const Root = (props) => {
-  return <section>{props.name} is mounted!</section>;
+  return (
+  <section className="container">
+    <div className="body">Body da Aplicação {props.name}</div>
+  </section>);
 };
 
 export default Root;
