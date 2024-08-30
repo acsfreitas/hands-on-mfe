@@ -1,0 +1,7 @@
+.shared_component {
+  display: flex;
+  background-color: brown;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+}
