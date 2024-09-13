@@ -24,10 +24,14 @@ Certifique-se de ter instalado em seu ambiente:
    git clone https://github.com/acsfreitas/hands-on-mfe.git
 
 2. Instale as dependências em todos os projetos:
-  cd compose && yarn install
+  2.1 No windows, utilize o PowerShell e execute o script install_mfes.ps1:
+    ./install_mfes.ps1
+  
+  2.2 No Linux ou  MacOS, execute os comandos abaixo:
+  cd ./compose && yarn install
   cd ../header && yarn install
-  cd ../body && yarn install
-  cd ..
+  cd ../body && yarn install  
+  cd ../contact && yarn install
 
 
 ## Executando o projeto

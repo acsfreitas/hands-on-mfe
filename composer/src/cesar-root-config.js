@@ -9,7 +9,7 @@ registerApplication({
 registerApplication({
   name: "@cesar/body",
   app: () => System.import("@cesar/body"),
-  activeWhen: ["/body"],
+  activeWhen: (location) => location.pathname === "/body" || location.pathname === "/body/",
 });
 
 start({
