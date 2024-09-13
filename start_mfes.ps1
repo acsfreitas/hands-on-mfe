@@ -1,4 +1,4 @@
-$projects = @("composer", "body", "header")
+$projects = @("composer", "body", "header", "contact")
 
 foreach ($project in $projects) {
     Write-Output "Start project $project..."

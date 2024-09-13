@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECTS=("composer" "body" "header")
+PROJECTS=("composer" "body" "header" "contact")
 
 for PROJECT in "${PROJECTS[@]}"
 do
